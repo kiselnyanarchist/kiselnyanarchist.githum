@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+body {
+  transform: 1s;
+  background-image: url(image/original.png);
+  background-repeat: no-repeat;
+  background-size: 100% 37.5%;
+  background-color:#808ba3;
+  background-position: top;
+  background-origin: content-box;
+  background-attachment: scroll;
+  font-family: 'Kelly Slab', cursive;
+  font-size: 20pt;
+  font-weight: bold;
+  padding: 1cm 4cm 2cm 4cm;
+  color:#000;
+  }
+  .wrapper{
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+  }
+  .block{
+    text-align: center;
+    padding: 1cm 16% 2cm 30%;
+    overflow: visible;
+  }
+  .block_row{
+    flex-wrap: wrap;
+    display: inline-flex;
+    margin: 30px 0px 70px 0px;
+    overflow: visible;
+  }
+  .block_column{
+    border:20px solid #52687a;
+    margin: 0px 0px 0px 0px;
+  }
+  .block_itemn{
+    background-color: #893942;
+    padding:50px;
+    color:#000000;
+    font-size: 45px;
+    margin: 0px 0px 0px 0px;
+    height: 150px;
+    width: 250px;
+    background-image: url(image/mesta1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }  
+  #r{
+    background-image: url(image/koza1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+  }
+  #priroda{
+    background-image: url(image/list1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+  }
+    
+  
+  .block_itemn:hover{
+    background-color: #8c4852;
+  }
+  .block_column:hover{
+    transform: scale(1.45);
+  }
+  a{
+    text-decoration:none;
+  }
+  .obl{
+    border:20px solid #52687a;
+    padding:0px 0px 0px 0px;
+    box-shadow: 15px 20px 15px rgba(0, 0, 0, .5);
+  }
+  .obl:hover{
+    transform: scale(1.07);
+  }
+ 
+  #vk{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+  #instagram{
+    position: fixed;
+    top: 74px;
+    left: 10px;
+  }
+  #yotub{
+    position: fixed;
+    top: 138px;
+    left: 10px;
+  }
+  #facebook{
+    position: fixed;
+    top: 202px;
+    left: 10px;
+  }
+  #vverh{
+    transform: 1s;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+  #vniz{
+    transform: 1s;
+    position: fixed;
+    top: 74px;
+    right: 10px;
+  }
+  #vverh:hover{
+    transform: scale(1.45);
+  }
+  #vniz:hover{
+    transform: scale(1.45);
+  }
+  header
+  { background-color: #893942;
+    width: 100%;
+    height: 200px;
+    background-image: url(image/Doma.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size:80px;
+    margin: 0px 0px 0px 0px;
+  }
+  .head{
+    border:20px solid #52687a;
+    background-color: #893942 ;
+    padding:0px 0px 0px 0px;
+    box-shadow: 15px 20px 15px rgba(0, 0, 0, .5);
+  }
+  .head:hover{
+    transform: scale(1.07);
+  }
+  div 
+  { margin-top: 1cm;
+    transition: 1s;
+    background: #fcd975;
+    font-size: 15pt;
+    color:#000;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  h1 {
+      transition: 1s;
+      font-size: 30pt;
+      text-align: center;
+  }
+  p {transition: 1s;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+ }
+  ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
+   li {
+    list-style-type: none; /* Убираем маркеры */
+   }

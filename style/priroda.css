@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+body {
+  transform: 1s;
+  background-image: url(image/nature.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 22%;
+  background-color:#987654;
+  background-position: top;
+  background-origin: content-box;
+  background-attachment: scroll;
+  font-family: 'Kelly Slab', cursive;
+  font-size: 20pt;
+  font-weight: bold;
+  padding: 1cm 4cm 2cm 4cm;
+  color:#000;
+  }
+#flex{
+  display: inline-flex;
+  justify-content: space-between;
+}
+  .wrapper{
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px 0px 0px 0px; 
+  }
+  .block{
+    text-align: center;
+  }
+  .block_row{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 30px 0px 70px 0px;
+  }
+  .block_column{
+    margin: 0px 0px 0px 0px;
+  }
+  .block_itemn{
+    padding:50px;
+    font-size: 50px;
+    margin: 0px 0px 0px 0px;
+    height: 500px;
+    width: 500px;
+  }  
+  .obl{
+    border:20px solid #737400;
+    padding:0px 0px 0px 0px;
+    box-shadow: 15px 20px 15px rgba(0, 0, 0, .5);
+  }
+  .obl:hover{
+    transform: scale(1.07);
+  }
+  .head{
+    border:20px solid #737400;
+    background-color: #c1a566 ;
+    padding:0px 0px 0px 0px;
+    box-shadow: 15px 20px 15px rgba(0, 0, 0, .5);
+    height: 200px;
+  }
+  .head:hover{
+    transform: scale(1.07);
+  }
+ .text{
+   text-decoration: underline;
+   color:#000 ;
+ }
+  #vk{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+  #instagram{
+    position: fixed;
+    top: 74px;
+    left: 10px;
+  }
+  #yotub{
+    position: fixed;
+    top: 138px;
+    left: 10px;
+  }
+  #facebook{
+    position: fixed;
+    top: 202px;
+    left: 10px;
+  }
+  #istochniki{
+    transform: 1s;
+    position: fixed;
+    top: 138px;
+    right: 10px;
+  }
+  #vverh{
+    transform: 1s;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+  #vniz{
+    transform: 1s;
+    position: fixed;
+    top: 74px;
+    right: 10px;
+  }
+  #vverh:hover{
+    transform: scale(1.45);
+  }
+  #istochniki:hover{
+    transform: scale(1.45);
+  }
+  #vniz:hover{
+    transform: scale(1.45);
+  }
+  
+  header
+  { background-color: #c1a566;
+    width: 100%;
+    height:200px;
+    background-image: url(image/FSHHP.png);
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size:43px;
+    margin: 0px 0px 0px 0px;
+  }
+  .spisok{
+    color:#d1d5de;
+    width: 30%;
+    height: 520px;
+    border:20px solid #737400;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    box-shadow: 15px 20px 15px rgba(0, 0, 0, .5);
+    float: left;
+    position: inherit;
+  }
+  .spisok:hover{
+    transform: scale(1.07);
+  }
+  #spisok{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color:#d1d5de;
+    height: 520px;
+    text-decoration:none;
+    float: left;
+    text-align: start;
+  }
+  #flex{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.0);
+    justify-content: space-between;
+    overflow: visible;
+  }
+  
+  .l{
+    margin: 0px 0px 0px 0px;
+  }
+  .w{
+    margin: 0px 0px 0px 0px;
+    font-size: 12pt;
+  }
+  #osnov{
+    width: 55%;
+    height: 490px;
+    text-align: center;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    padding-top: 30px;
+    overflow-y: auto;
+  }
+
+  div 
+  { margin-top: 1cm;
+    transition: 1s;
+    background: #c1a566;
+    font-size: 15pt;
+    color:#000;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  h1 {
+      transition: 1s;
+      font-size: 30pt;
+      text-align: center;
+  }
+  h2 {
+    transition: 1s;
+    color: #000;
+}
+  p {transition: 1s;
+     margin: 10px 10px 10px 10px;
+     text-align: center;
+  }
+  ul {
+    margin-left: 10px; /* Отступ слева в браузере IE и Opera */
+    padding-left: 10px; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    color: #000000;
+   }
+   li {
+    list-style-type: none; /* Убираем маркеры */
+    
+   }
+   a{
+    text-decoration:none;
+    color: #000;
+  }
+  .popup{
+position: fixed;
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, .8);
+top: 0;
+left: 0;
+opacity: 0;
+visibility: hidden;
+transition: all 0.8s ease 0s;
+}
+.popup:target{
+  opacity: 1;
+  visibility: visible;
+}
+.popup:target .popup_content{
+  transform: perspective(800px) translate(0px, 0%) rotateX(0deg);
+  opacity: 1;
+}
+
+.popup_body{
+min-height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 30px 10px;
+transition: all 0.8s ease 0s;
+  }
+.popup_content{
+  background-color: #737400;
+  color: #000000;
+  max-width: 800px;
+  position: relative;
+  padding: 30px;
+  transition: all 0.8s ease 0s;
+  opacity: 0;
+  transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+}
+.popup_close{
+position: absolute;
+right: 20px;
+top: 10px;
+font-size: 20px;
+height: 10px;
+width: 10px;
+}
+.popup_title{
+font-size: 40px;
+
+}
+.popup_text{
+  text-decoration:none;
+  color: #000000;
+}
+.prev, .next{
+  cursor: pointer;
+  position: inherit;
+  top:50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 18px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next{
+  cursor: pointer;
+  position: inherit;
+  top:50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.prev:hover, .next:hover{
+  background-color: rgba(0, 0, 0, 0.0);
+}
+.text0{
+  height: 40px;
+  padding: 8px 12px;
+  background-color: rgba(0, 0, 0, 0.0);
+}
+.dot{
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius:  50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover{
+  background-color: #717171;
+}
+.fade{
+  -webkit-animation-name:fade;
+  -webkit-animation-duration:1.5s;
+  animation-name:fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+  from{opacity: 0.4}
+  to{opacity: 1}
+}
+@keyframes fade{
+  from{opacity: 0.4}
+  to{opacity: 1}
+}
